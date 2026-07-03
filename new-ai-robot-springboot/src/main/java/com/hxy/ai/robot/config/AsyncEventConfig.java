@@ -1,0 +1,47 @@
+package com.hxy.ai.robot.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
+
+import java.util.concurrent.Executor;
+import java.util.concurrent.ThreadPoolExecutor;
+
+/**
+ * @Author 霍鑫宇
+ * @Classname
+ * @Description TODO
+ * @Date 2026/4/22 10:34
+ */
+@Configuration
+@EnableAsync // 开启异步支持
+public class AsyncEventConfig {
+
+    /**
+     * 自定义事件处理线程池
+     * */
+    @Bean("eventTaskExecutor")
+    public Executor eventTaskExecutor() {
+        ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+
+        executor.setCorePoolSize(5);
+
+        executor.setMaxPoolSize(10);
+
+        executor.setQueueCapacity(50);
+
+        executor.setKeepAliveSeconds(60);
+
+        executor.setThreadNamePrefix("event-handler-");
+
+        executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+
+        executor.setWaitForTasksToCompleteOnShutdown(true);
+
+        executor.setAwaitTerminationSeconds(60);
+
+        executor.initialize();
+        return executor;
+    }
+}

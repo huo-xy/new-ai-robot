@@ -1,0 +1,32 @@
+package com.hxy.ai.robot.config;
+
+import jakarta.annotation.Resource;
+import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
+import org.springframework.ai.chat.memory.ChatMemory;
+
+import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @Author 霍鑫宇
+ * @Description:
+ * @Date Created in 2026-04-12 14:50
+ * @Modified By;
+ */
+@Configuration
+public class ChatClientConfig {
+
+    /**
+     * 初始化 ChatClient 客户端
+     * @param chatModel
+     * @return
+     */
+    @Bean
+    public ChatClient chatClient(OpenAiChatModel chatModel) {
+        return ChatClient.builder(chatModel)
+                .build();
+    }
+}

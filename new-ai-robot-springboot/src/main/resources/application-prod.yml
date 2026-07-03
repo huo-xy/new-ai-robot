@@ -1,0 +1,27 @@
+server:
+  port: 8081 #\u542F\u52A8\u7AEF\u53E3 8080\u5DF2\u88AB\u5360\u7528
+spring:
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key: sk-54c521991e904b10ad2948670411cfb5
+      chat:
+        options:
+          model: qwen-omni-turbo
+          temperature: 0.7
+#      base-url: https://api.zhizengzeng.com/v1
+#      api-key: sk-zk2c9dff6647fabd89f38422f43178ef36f69dccd1266415
+#      chat:
+#        options:
+#          model: gpt-4o
+#          temperature: 0.7
+    mcp:
+      client:
+        sse:
+          connections:
+            qq-mcp-server:
+              url: http://localhost:8000
+
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: debug

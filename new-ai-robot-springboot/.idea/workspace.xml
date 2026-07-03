@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd3fc9c5-0aae-44c9-a8e7-1ca32a7d0959" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hxy/ai/robot/controller/ChatController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/boot/spring-boot/3.4.5/spring-boot-3.4.5.jar!/org/springframework/boot/diagnostics/LoggingFailureAnalysisReporter.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.11" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3CEgEku519FXDjgKomzNHLXPkZK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MybatisPlusTests.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;Spring Boot.NewAiRobotSpringbootApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NewAiRobotSpringbootApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/new-ai-robot/new-ai-robot-springboot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hxy.ai.robot.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot\src\main\resources\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hxy.ai.robot.model.vo.customerService" />
+      <recent name="com.hxy.ai.robot.model.vo.vhat" />
+      <recent name="com.hxy.ai.robot.advisor" />
+      <recent name="com.hxy.ai.robot.service.impl" />
+      <recent name="com.hxy.ai.robot.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NewAiRobotSpringbootApplication">
+    <configuration name="MybatisPlusTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-robot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hxy.ai.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hxy.ai.robot" />
+      <option name="MAIN_CLASS_NAME" value="com.hxy.ai.robot.MybatisPlusTests" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="new-ai-robot-springboot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="new-ai-robot-springboot" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NewAiRobotSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ai-robot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hxy.ai.robot.NewAiRobotSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MybatisPlusTests.testInsert" />
+      <item itemvalue="Spring Boot.NewAiRobotSpringbootApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisPlusTests.testInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd3fc9c5-0aae-44c9-a8e7-1ca32a7d0959" name="更改" comment="" />
+      <created>1757574740505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757574740505</updated>
+      <workItem from="1775956038809" duration="5127000" />
+      <workItem from="1775974233548" duration="6260000" />
+      <workItem from="1776038644964" duration="23000" />
+      <workItem from="1776045484881" duration="5259000" />
+      <workItem from="1776077076033" duration="3266000" />
+      <workItem from="1776130088319" duration="2991000" />
+      <workItem from="1776155391537" duration="7983000" />
+      <workItem from="1776205128236" duration="14700000" />
+      <workItem from="1776249092028" duration="3481000" />
+      <workItem from="1776304035553" duration="2461000" />
+      <workItem from="1776419147332" duration="405000" />
+      <workItem from="1776467802106" duration="30287000" />
+      <workItem from="1776553232595" duration="16785000" />
+      <workItem from="1776650001721" duration="654000" />
+      <workItem from="1776664706233" duration="3154000" />
+      <workItem from="1776728268010" duration="10400000" />
+      <workItem from="1776763272152" duration="7000" />
+      <workItem from="1776763287208" duration="833000" />
+      <workItem from="1776764238172" duration="4338000" />
+      <workItem from="1776813366186" duration="14542000" />
+      <workItem from="1776906350735" duration="6228000" />
+      <workItem from="1777018870390" duration="3231000" />
+      <workItem from="1777075157091" duration="5884000" />
+      <workItem from="1777159613017" duration="13182000" />
+      <workItem from="1777254726903" duration="5396000" />
+      <workItem from="1777287538827" duration="3310000" />
+      <workItem from="1777333449026" duration="3467000" />
+      <workItem from="1777419953693" duration="3071000" />
+      <workItem from="1778149049391" duration="1838000" />
+      <workItem from="1778232053120" duration="9376000" />
+      <workItem from="1778292290665" duration="22000" />
+      <workItem from="1778292656734" duration="25000" />
+      <workItem from="1780139883016" duration="197000" />
+      <workItem from="1780184968881" duration="42000" />
+      <workItem from="1781171865551" duration="5357000" />
+      <workItem from="1781177678896" duration="6000" />
+      <workItem from="1782285505816" duration="166000" />
+      <workItem from="1782285685453" duration="1438000" />
+      <workItem from="1783040468413" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

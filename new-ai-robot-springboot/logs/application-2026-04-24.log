@@ -1,0 +1,448 @@
+2026-04-24 16:23:12.126 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-04-24 16:23:12.159 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Starting NewAiRobotSpringbootApplication using Java 21.0.10 with PID 12792 (D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot\target\classes started by 霍鑫宇 in D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot)
+2026-04-24 16:23:12.162 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2026-04-24 16:23:13.311 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 16:23:13.325 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:23:13.326 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-24 16:23:13.326 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-24 16:23:13.364 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-24 16:23:13.365 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2026-04-24 16:23:14.050 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2026-04-24 16:23:14.054 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2026-04-24 16:23:14.054 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2026-04-24 16:23:14.403 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@78d39a69
+2026-04-24 16:23:14.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:23:14.500 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 16:23:14.505 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Started NewAiRobotSpringbootApplication in 2.644 seconds (process running for 3.48)
+2026-04-24 16:24:48.536 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 16:24:48.537 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-24 16:24:48.539 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-24 16:24:48.578 [http-nio-8081-exec-2] INFO  com.hxy.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功， 文件名：项目实战客服问答.md -> 存储路径：D:\IdeaProjects\new-ai-robot\3083b5a1-1bc8-4fa5-932d-fc6b1d2389d4-项目实战客服问答.md
+2026-04-24 16:24:48.622 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2026-04-24 16:24:48.813 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@2cd97fa
+2026-04-24 16:24:48.814 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2026-04-24 16:24:48.928 [event-handler-1] INFO  com.hxy.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=5, filePath=D:\IdeaProjects\new-ai-robot\3083b5a1-1bc8-4fa5-932d-fc6b1d2389d4-项目实战客服问答.md, metadatas={mdStorageId=5, originalFilename=项目实战客服问答.md})
+2026-04-24 16:24:49.042 [event-handler-1] INFO  com.hxy.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='510361e7-2663-43c3-8bca-ac42c9affb89', text='**问题1：星球目前有几个项目？**目前星球已更新了 3 个项目，分别是：- 《从零手撸: 前后端分离博客, Wiki 知识库》：  - **介绍**：全栈开发，从 0 到 1 手敲一个前后端分离博客，包括前台以及后台管理，渐进式讲解每个功能模块的开发，直到部署到云服务器，实现公网域名可访问。  - **试读链接**：https://www.quanxiaoha.com/column/10000.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构、Maven 多模块功能拆分; Element Plus、Flowbit 前端界面。  - **项目技术栈**：Spring Boot 2.x、JDK 1.8、MySQL 5.7、MyBatis Plus、Spring Security、JWT、Minio、Lucene、Maven、Nginx、Docker、Jenkins、CI/CD、Vue 3.x、Vite 4、Element Plus、Tailwindcss、Pinia、Axios、Echarts、Flowbit ...- 《从零手撸：小哈书（仿小红书）》：  - **介绍**：从 0 到 1 搭建一个小红书，基于 Spring Cloud Alibaba 微服务架构。  - **试读链接**：https://www.quanxiaoha.com/column/10247.html。  - **项目架构**：后端微服务、分布式架构，Maven 多模块，业务组件设计; 前后端分离; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring Boot 3.x、JDK 17、MySQL 8.0、Redis 7.x、Elasticsearch 7.x、Spring Cloud Alibaba 2022.x、Nacos、Gateway、Sentinel、RocketMQ、XXL-Job、MyBatis、SaToken、Minio、Cassandra、Zookeeper、Docker、Jmeter、Maven、Vue 3.x、Vite 4 ...- 《从零手撸: Spring AI 应用项目（问答机器人、RAG 私有知识库、联网搜索）》：  - **介绍**：全栈开发，基于 Spring AI 框架，从 0 到 1 手敲一个 AI 应用，初期规划是完成问答机器人、RAG 私有知识库、联网搜索（后续还会追加其他功能），包括前台以及后台管理，渐进式讲解每个功能模块的开发。  - **试读链接**：https://www.quanxiaoha.com/column/10508.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring AI、Spring Boot 3.x、JDK 21、MySQL 8.x、Deepseek、Function Call、RAG 增强检索、MCP、Ollama、MyBatis Plus、PostgreSQL、Redis Stack、Cassandra、SaToken、JWT、Minio、Jsoup、Maven、Docker、Vue 3.x、Vite 4、Ant Design Vue、Tailwindcss、Pinia、Axios ...---**问题2: 项目是视频讲解吗？**是图文专栏的模式哈，就第一个项目 《从零手撸: 前后端分离博客, Wiki 知识库》 的第八章是视频，后续小伙伴反馈说，视频看起来太磨叽，得来回横跳，又切回图文模式了。基本每一步关键步骤都有图示，可以 PC 端先试读瞅瞅：https://www.quanxiaoha.com/column。---**问题3：如何加入星球呢？**微信扫描下面的优惠券就能加入，还能节省 15元，非常划算。15元新人优惠券图片链接：https://img.quanxiaoha.com/quanxiaoha/176222933164217', media='null', metadata={originalFilename=项目实战客服问答.md, mdStorageId=5}, score=null}]
+2026-04-24 16:25:09.957 [http-nio-8081-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [enabled_engines="360search__general\054aol__general\054ask__general\054baidu__general\054bing__general\054boardreader__general\054bpb__general\054crowdview__general\054yep__general\054ddg definitions__general\054encyclosearch__general\054tineye__general\054fynd__general\054mozhi__general\054mwmbl__general\054openlibrary__general\054presearch__general\054presearch videos__general\054quark__general\054qwant__general\054searchmysite__general\054sogou__general\054tagesschau__general\054yandex__general\054yahoo__general\054wiby__general\054wikibooks__general\054wikiquote__general\054wikisource__general\054wikispecies__general\054wikiversity__general\054wikivoyage__general\054wolframalpha__general\054seznam__general\054mojeek__general\054naver__general\054yacy__general\054wikimini__general"] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2026-04-24 16:25:09.972 [http-nio-8081-exec-3] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [AI 智能客服对话], 入参: "星球目前有几个项目，是视频讲解的吗", 请求类: AiCustomerServiceController, 请求方法: chat =================================== 
+2026-04-24 16:25:10.008 [http-nio-8081-exec-3] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [AI 智能客服对话], 耗时: 26ms, 出参: {"scanAvailable":true,"prefetch":-1} =================================== 
+2026-04-24 16:25:10.269 [http-nio-8081-exec-3] INFO  com.hxy.ai.robot.advisor.CustomerServiceAdvisor - ## 重新构建的增强提示词：你是一个专业的客服，名为 "New AI 助手"。请根据上下文信息回答用户问题。
+
+## 上下文信息
+**问题1：星球目前有几个项目？**目前星球已更新了 3 个项目，分别是：- 《从零手撸: 前后端分离博客, Wiki 知识库》：  - **介绍**：全栈开发，从 0 到 1 手敲一个前后端分离博客，包括前台以及后台管理，渐进式讲解每个功能模块的开发，直到部署到云服务器，实现公网域名可访问。  - **试读链接**：https://www.quanxiaoha.com/column/10000.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构、Maven 多模块功能拆分; Element Plus、Flowbit 前端界面。  - **项目技术栈**：Spring Boot 2.x、JDK 1.8、MySQL 5.7、MyBatis Plus、Spring Security、JWT、Minio、Lucene、Maven、Nginx、Docker、Jenkins、CI/CD、Vue 3.x、Vite 4、Element Plus、Tailwindcss、Pinia、Axios、Echarts、Flowbit ...- 《从零手撸：小哈书（仿小红书）》：  - **介绍**：从 0 到 1 搭建一个小红书，基于 Spring Cloud Alibaba 微服务架构。  - **试读链接**：https://www.quanxiaoha.com/column/10247.html。  - **项目架构**：后端微服务、分布式架构，Maven 多模块，业务组件设计; 前后端分离; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring Boot 3.x、JDK 17、MySQL 8.0、Redis 7.x、Elasticsearch 7.x、Spring Cloud Alibaba 2022.x、Nacos、Gateway、Sentinel、RocketMQ、XXL-Job、MyBatis、SaToken、Minio、Cassandra、Zookeeper、Docker、Jmeter、Maven、Vue 3.x、Vite 4 ...- 《从零手撸: Spring AI 应用项目（问答机器人、RAG 私有知识库、联网搜索）》：  - **介绍**：全栈开发，基于 Spring AI 框架，从 0 到 1 手敲一个 AI 应用，初期规划是完成问答机器人、RAG 私有知识库、联网搜索（后续还会追加其他功能），包括前台以及后台管理，渐进式讲解每个功能模块的开发。  - **试读链接**：https://www.quanxiaoha.com/column/10508.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring AI、Spring Boot 3.x、JDK 21、MySQL 8.x、Deepseek、Function Call、RAG 增强检索、MCP、Ollama、MyBatis Plus、PostgreSQL、Redis Stack、Cassandra、SaToken、JWT、Minio、Jsoup、Maven、Docker、Vue 3.x、Vite 4、Ant Design Vue、Tailwindcss、Pinia、Axios ...---**问题2: 项目是视频讲解吗？**是图文专栏的模式哈，就第一个项目 《从零手撸: 前后端分离博客, Wiki 知识库》 的第八章是视频，后续小伙伴反馈说，视频看起来太磨叽，得来回横跳，又切回图文模式了。基本每一步关键步骤都有图示，可以 PC 端先试读瞅瞅：https://www.quanxiaoha.com/column。---**问题3：如何加入星球呢？**微信扫描下面的优惠券就能加入，还能节省 15元，非常划算。15元新人优惠券图片链接：https://img.quanxiaoha.com/quanxiaoha/176222933164217
+----
+
+要测试安全配置，可使用以下 curl 命令模拟登录请求：
+----
+
+注意：实际部署时应使用加密密码存储，示例中为简化展示使用明文
+----
+
+
+
+请根据上下文内容来回复用户:
+
+## 用户问题
+星球目前有几个项目，是视频讲解的吗
+
+## 回答要求
+
+**核心规则**:
+1. **严格基于上下文**: 只能使用提供的上下文信息回答问题
+2. **服务风格**: 热情、耐心、专业，可以使用适当的 Emoji 表情 😊
+3. **禁止用语**: 避免使用"根据上下文"、"所提供的信息"等生硬表述
+
+**回答范围判断**:
+- ✅ 如果用户问题与上下文信息直接相关，请提供详细、准确的回答
+- ✅ 如果用户问题与上下文信息间接相关，可以基于已有信息进行合理推断
+- ❌ 如果用户问题完全超出上下文范围，或者上下文信息不足以回答该问题
+
+**无法回答时的统一回复**：
+当遇到以下情况时，请统一回复：
+"此问题暂时无法回答，可以加博主「小哈」的私人微信来咨询，记得添加时一定要备注 **星球咨询**"
+微信二维码：![](https://img.quanxiaoha.com/quanxiaoha/173950927165691)
+
+**图片展示**：
+如需要展示图片，请使用 Markdown 格式：![](图片链接)
+
+现在请根据以上要求回答问题。
+
+2026-04-24 16:25:11.030 [boundedElastic-1] WARN  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - !!!
+Performing asynchronous handling through the default Spring MVC SimpleAsyncTaskExecutor.
+This executor is not suitable for production use under load.
+Please, configure an AsyncTaskExecutor through the WebMvc config.
+-------------------------------
+!!!
+2026-04-24 16:25:18.951 [http-nio-8081-exec-5] ERROR com.hxy.ai.robot.exception.GlobalExceptionHandler - /favicon.ico request error, 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-24 16:25:32.154 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 16:25:32.165 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 16:25:32.168 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2026-04-24 16:25:32.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
+2026-04-24 16:25:33.982 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-04-24 16:25:34.006 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Starting NewAiRobotSpringbootApplication using Java 21.0.10 with PID 13900 (D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot\target\classes started by 霍鑫宇 in D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot)
+2026-04-24 16:25:34.009 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2026-04-24 16:25:35.025 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 16:25:35.075 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+2026-04-24 16:25:35.684 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2026-04-24 16:25:35.687 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2026-04-24 16:25:35.687 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2026-04-24 16:25:36.043 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2c30b71f
+2026-04-24 16:25:36.145 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 16:25:36.150 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Started NewAiRobotSpringbootApplication in 2.393 seconds (process running for 3.095)
+2026-04-24 16:25:36.151 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 16:25:36.160 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 16:49:33.333 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-04-24 16:49:33.365 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Starting NewAiRobotSpringbootApplication using Java 21.0.10 with PID 28440 (D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot\target\classes started by 霍鑫宇 in D:\IdeaProjects\new-ai-robot\new-ai-robot-springboot)
+2026-04-24 16:49:33.373 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2026-04-24 16:49:34.497 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 16:49:34.507 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:49:34.508 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-24 16:49:34.508 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-24 16:49:34.545 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-24 16:49:34.545 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2026-04-24 16:49:35.207 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2026-04-24 16:49:35.210 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2026-04-24 16:49:35.210 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2026-04-24 16:49:35.573 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@109f5dd8
+2026-04-24 16:49:35.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:49:35.663 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 16:49:35.667 [main] INFO  com.hxy.ai.robot.NewAiRobotSpringbootApplication - Started NewAiRobotSpringbootApplication in 2.606 seconds (process running for 3.696)
+2026-04-24 16:50:41.222 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 16:50:41.222 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-24 16:50:41.223 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-24 16:50:41.348 [http-nio-8081-exec-1] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [查询历史对话], 入参: {"current":1,"size":20}, 请求类: ChatController, 请求方法: findChatHistoryPageList =================================== 
+2026-04-24 16:50:41.508 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2026-04-24 16:50:41.681 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@1aa26625
+2026-04-24 16:50:41.682 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2026-04-24 16:50:41.810 [http-nio-8081-exec-1] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [查询历史对话], 耗时: 457ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":40,"uuid":"2f5bcaee-0f7b-4090-91d2-9f9293f9ab27","summary":"你好","updateTime":"2026-04-21 18:20:33"},{"id":39,"uuid":"5aab4724-f06b-40b0-a1a1-04d1b4ee72ad","summary":"你好","updateTime":"2026-04-21 18:19:11"},{"id":38,"uuid":"2951e3b4-2294-41f9-adaa-8e1f03957903","summary":"你是什么模型","updateTime":"2026-04-21 17:58:24"},{"id":37,"uuid":"c0f9ca93-829a-495f-b553-08e297ea1280","summary":"你好，你使用的是什么大模型","updateTime":"2026-04-21 10:37:40"},{"id":36,"uuid":"44358c03-2e0c-4895-9865-7c3a08a20a1e","summary":"你好","updateTime":"2026-04-21 10:35:57"},{"id":35,"uuid":"ce790d1c-016d-44d5-a3f4-0cd475f94e53","summary":"你好","updateTime":"2026-04-21 10:22:06"},{"id":33,"uuid":"4bae4957-a22a-4025-b9dd-3c85b8773b8b","summary":"最近比较好看的综艺5部","updateTime":"2026-04-21 10:09:40"},{"id":32,"uuid":"bbf633bc-845e-4b7d-83a0-61e7c5886c6e","summary":"你好","updateTime":"2026-04-21 09:43:56"},{"id":31,"uuid":"b83642c4-4daf-4d90-8bde-7aa447de203b","summary":"国内比较好看的电视剧10","updateTime":"2026-04-21 09:24:10"},{"id":30,"uuid":"8b6cea1d-3f90-4a4e-b7a8-fb07b71f8d0b","summary":"最新的电视剧","updateTime":"2026-04-21 09:16:27"},{"id":29,"uuid":"8c3ec8cb-9a80-4229-8b9d-0dc71e04a824","summary":"你好","updateTime":"2026-04-21 09:07:35"},{"id":28,"uuid":"f6dce213-f2c6-40b8-a624-eda811e7a4c5","summary":"你哈","updateTime":"2026-04-21 08:57:07"},{"id":27,"uuid":"ee28009d-490f-4adf-a42b-a66d6ca736b4","summary":"你好","updateTime":"2026-04-21 08:36:23"},{"id":26,"uuid":"4da0c5c9-827d-4661-b163-bfdad020b5cf","summary":"你好","updateTime":"2026-04-21 08:33:13"},{"id":25,"uuid":"8c1be6b5-070a-4026-b82f-7fbbe7f63a51","summary":"你好","updateTime":"2026-04-21 08:29:28"},{"id":24,"uuid":"ee231d3f-014b-4613-b919-2757b32ba516","summary":"你好，你是什么大模型","updateTime":"2026-04-21 08:23:12"},{"id":23,"uuid":"0b1ce293-54bb-41a2-a68f-2d20c330fae0","summary":"你好","updateTime":"2026-04-21 08:10:11"},{"id":22,"uuid":"624b9d56-db67-42bc-8093-c8b35f1b5e0b","summary":"你好","updateTime":"2026-04-20 15:47:19"},{"id":21,"uuid":"01152697-6fa9-407d-88fe-ddea4290eeaf","summary":"你好","updateTime":"2026-04-20 15:43:16"},{"id":20,"uuid":"0e1b6b7e-b217-49c0-83fd-b253518b1a1a","summary":"你好","updateTime":"2026-04-20 15:41:21"}],"total":38,"size":20,"current":1,"pages":2} =================================== 
+2026-04-24 16:50:45.016 [http-nio-8081-exec-5] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [查询历史对话], 入参: {"current":1,"size":20}, 请求类: ChatController, 请求方法: findChatHistoryPageList =================================== 
+2026-04-24 16:50:45.043 [http-nio-8081-exec-5] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [查询历史对话], 耗时: 26ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":40,"uuid":"2f5bcaee-0f7b-4090-91d2-9f9293f9ab27","summary":"你好","updateTime":"2026-04-21 18:20:33"},{"id":39,"uuid":"5aab4724-f06b-40b0-a1a1-04d1b4ee72ad","summary":"你好","updateTime":"2026-04-21 18:19:11"},{"id":38,"uuid":"2951e3b4-2294-41f9-adaa-8e1f03957903","summary":"你是什么模型","updateTime":"2026-04-21 17:58:24"},{"id":37,"uuid":"c0f9ca93-829a-495f-b553-08e297ea1280","summary":"你好，你使用的是什么大模型","updateTime":"2026-04-21 10:37:40"},{"id":36,"uuid":"44358c03-2e0c-4895-9865-7c3a08a20a1e","summary":"你好","updateTime":"2026-04-21 10:35:57"},{"id":35,"uuid":"ce790d1c-016d-44d5-a3f4-0cd475f94e53","summary":"你好","updateTime":"2026-04-21 10:22:06"},{"id":33,"uuid":"4bae4957-a22a-4025-b9dd-3c85b8773b8b","summary":"最近比较好看的综艺5部","updateTime":"2026-04-21 10:09:40"},{"id":32,"uuid":"bbf633bc-845e-4b7d-83a0-61e7c5886c6e","summary":"你好","updateTime":"2026-04-21 09:43:56"},{"id":31,"uuid":"b83642c4-4daf-4d90-8bde-7aa447de203b","summary":"国内比较好看的电视剧10","updateTime":"2026-04-21 09:24:10"},{"id":30,"uuid":"8b6cea1d-3f90-4a4e-b7a8-fb07b71f8d0b","summary":"最新的电视剧","updateTime":"2026-04-21 09:16:27"},{"id":29,"uuid":"8c3ec8cb-9a80-4229-8b9d-0dc71e04a824","summary":"你好","updateTime":"2026-04-21 09:07:35"},{"id":28,"uuid":"f6dce213-f2c6-40b8-a624-eda811e7a4c5","summary":"你哈","updateTime":"2026-04-21 08:57:07"},{"id":27,"uuid":"ee28009d-490f-4adf-a42b-a66d6ca736b4","summary":"你好","updateTime":"2026-04-21 08:36:23"},{"id":26,"uuid":"4da0c5c9-827d-4661-b163-bfdad020b5cf","summary":"你好","updateTime":"2026-04-21 08:33:13"},{"id":25,"uuid":"8c1be6b5-070a-4026-b82f-7fbbe7f63a51","summary":"你好","updateTime":"2026-04-21 08:29:28"},{"id":24,"uuid":"ee231d3f-014b-4613-b919-2757b32ba516","summary":"你好，你是什么大模型","updateTime":"2026-04-21 08:23:12"},{"id":23,"uuid":"0b1ce293-54bb-41a2-a68f-2d20c330fae0","summary":"你好","updateTime":"2026-04-21 08:10:11"},{"id":22,"uuid":"624b9d56-db67-42bc-8093-c8b35f1b5e0b","summary":"你好","updateTime":"2026-04-20 15:47:19"},{"id":21,"uuid":"01152697-6fa9-407d-88fe-ddea4290eeaf","summary":"你好","updateTime":"2026-04-20 15:43:16"},{"id":20,"uuid":"0e1b6b7e-b217-49c0-83fd-b253518b1a1a","summary":"你好","updateTime":"2026-04-20 15:41:21"}],"total":38,"size":20,"current":1,"pages":2} =================================== 
+2026-04-24 16:55:03.250 [http-nio-8081-exec-3] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [查询历史对话], 入参: {"current":1,"size":20}, 请求类: ChatController, 请求方法: findChatHistoryPageList =================================== 
+2026-04-24 16:55:03.287 [http-nio-8081-exec-3] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [查询历史对话], 耗时: 35ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":40,"uuid":"2f5bcaee-0f7b-4090-91d2-9f9293f9ab27","summary":"你好","updateTime":"2026-04-21 18:20:33"},{"id":39,"uuid":"5aab4724-f06b-40b0-a1a1-04d1b4ee72ad","summary":"你好","updateTime":"2026-04-21 18:19:11"},{"id":38,"uuid":"2951e3b4-2294-41f9-adaa-8e1f03957903","summary":"你是什么模型","updateTime":"2026-04-21 17:58:24"},{"id":37,"uuid":"c0f9ca93-829a-495f-b553-08e297ea1280","summary":"你好，你使用的是什么大模型","updateTime":"2026-04-21 10:37:40"},{"id":36,"uuid":"44358c03-2e0c-4895-9865-7c3a08a20a1e","summary":"你好","updateTime":"2026-04-21 10:35:57"},{"id":35,"uuid":"ce790d1c-016d-44d5-a3f4-0cd475f94e53","summary":"你好","updateTime":"2026-04-21 10:22:06"},{"id":33,"uuid":"4bae4957-a22a-4025-b9dd-3c85b8773b8b","summary":"最近比较好看的综艺5部","updateTime":"2026-04-21 10:09:40"},{"id":32,"uuid":"bbf633bc-845e-4b7d-83a0-61e7c5886c6e","summary":"你好","updateTime":"2026-04-21 09:43:56"},{"id":31,"uuid":"b83642c4-4daf-4d90-8bde-7aa447de203b","summary":"国内比较好看的电视剧10","updateTime":"2026-04-21 09:24:10"},{"id":30,"uuid":"8b6cea1d-3f90-4a4e-b7a8-fb07b71f8d0b","summary":"最新的电视剧","updateTime":"2026-04-21 09:16:27"},{"id":29,"uuid":"8c3ec8cb-9a80-4229-8b9d-0dc71e04a824","summary":"你好","updateTime":"2026-04-21 09:07:35"},{"id":28,"uuid":"f6dce213-f2c6-40b8-a624-eda811e7a4c5","summary":"你哈","updateTime":"2026-04-21 08:57:07"},{"id":27,"uuid":"ee28009d-490f-4adf-a42b-a66d6ca736b4","summary":"你好","updateTime":"2026-04-21 08:36:23"},{"id":26,"uuid":"4da0c5c9-827d-4661-b163-bfdad020b5cf","summary":"你好","updateTime":"2026-04-21 08:33:13"},{"id":25,"uuid":"8c1be6b5-070a-4026-b82f-7fbbe7f63a51","summary":"你好","updateTime":"2026-04-21 08:29:28"},{"id":24,"uuid":"ee231d3f-014b-4613-b919-2757b32ba516","summary":"你好，你是什么大模型","updateTime":"2026-04-21 08:23:12"},{"id":23,"uuid":"0b1ce293-54bb-41a2-a68f-2d20c330fae0","summary":"你好","updateTime":"2026-04-21 08:10:11"},{"id":22,"uuid":"624b9d56-db67-42bc-8093-c8b35f1b5e0b","summary":"你好","updateTime":"2026-04-20 15:47:19"},{"id":21,"uuid":"01152697-6fa9-407d-88fe-ddea4290eeaf","summary":"你好","updateTime":"2026-04-20 15:43:16"},{"id":20,"uuid":"0e1b6b7e-b217-49c0-83fd-b253518b1a1a","summary":"你好","updateTime":"2026-04-20 15:41:21"}],"total":38,"size":20,"current":1,"pages":2} =================================== 
+2026-04-24 16:55:07.606 [http-nio-8081-exec-4] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [查询历史对话], 入参: {"current":1,"size":20}, 请求类: ChatController, 请求方法: findChatHistoryPageList =================================== 
+2026-04-24 16:55:07.636 [http-nio-8081-exec-4] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [查询历史对话], 耗时: 28ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":40,"uuid":"2f5bcaee-0f7b-4090-91d2-9f9293f9ab27","summary":"你好","updateTime":"2026-04-21 18:20:33"},{"id":39,"uuid":"5aab4724-f06b-40b0-a1a1-04d1b4ee72ad","summary":"你好","updateTime":"2026-04-21 18:19:11"},{"id":38,"uuid":"2951e3b4-2294-41f9-adaa-8e1f03957903","summary":"你是什么模型","updateTime":"2026-04-21 17:58:24"},{"id":37,"uuid":"c0f9ca93-829a-495f-b553-08e297ea1280","summary":"你好，你使用的是什么大模型","updateTime":"2026-04-21 10:37:40"},{"id":36,"uuid":"44358c03-2e0c-4895-9865-7c3a08a20a1e","summary":"你好","updateTime":"2026-04-21 10:35:57"},{"id":35,"uuid":"ce790d1c-016d-44d5-a3f4-0cd475f94e53","summary":"你好","updateTime":"2026-04-21 10:22:06"},{"id":33,"uuid":"4bae4957-a22a-4025-b9dd-3c85b8773b8b","summary":"最近比较好看的综艺5部","updateTime":"2026-04-21 10:09:40"},{"id":32,"uuid":"bbf633bc-845e-4b7d-83a0-61e7c5886c6e","summary":"你好","updateTime":"2026-04-21 09:43:56"},{"id":31,"uuid":"b83642c4-4daf-4d90-8bde-7aa447de203b","summary":"国内比较好看的电视剧10","updateTime":"2026-04-21 09:24:10"},{"id":30,"uuid":"8b6cea1d-3f90-4a4e-b7a8-fb07b71f8d0b","summary":"最新的电视剧","updateTime":"2026-04-21 09:16:27"},{"id":29,"uuid":"8c3ec8cb-9a80-4229-8b9d-0dc71e04a824","summary":"你好","updateTime":"2026-04-21 09:07:35"},{"id":28,"uuid":"f6dce213-f2c6-40b8-a624-eda811e7a4c5","summary":"你哈","updateTime":"2026-04-21 08:57:07"},{"id":27,"uuid":"ee28009d-490f-4adf-a42b-a66d6ca736b4","summary":"你好","updateTime":"2026-04-21 08:36:23"},{"id":26,"uuid":"4da0c5c9-827d-4661-b163-bfdad020b5cf","summary":"你好","updateTime":"2026-04-21 08:33:13"},{"id":25,"uuid":"8c1be6b5-070a-4026-b82f-7fbbe7f63a51","summary":"你好","updateTime":"2026-04-21 08:29:28"},{"id":24,"uuid":"ee231d3f-014b-4613-b919-2757b32ba516","summary":"你好，你是什么大模型","updateTime":"2026-04-21 08:23:12"},{"id":23,"uuid":"0b1ce293-54bb-41a2-a68f-2d20c330fae0","summary":"你好","updateTime":"2026-04-21 08:10:11"},{"id":22,"uuid":"624b9d56-db67-42bc-8093-c8b35f1b5e0b","summary":"你好","updateTime":"2026-04-20 15:47:19"},{"id":21,"uuid":"01152697-6fa9-407d-88fe-ddea4290eeaf","summary":"你好","updateTime":"2026-04-20 15:43:16"},{"id":20,"uuid":"0e1b6b7e-b217-49c0-83fd-b253518b1a1a","summary":"你好","updateTime":"2026-04-20 15:41:21"}],"total":38,"size":20,"current":1,"pages":2} =================================== 
+2026-04-24 16:55:08.837 [http-nio-8081-exec-2] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 16:55:25.958 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [流式对话], 入参: {"message":"目前星球有几个项目","chatId":null,"networkSearch":false,"modelName":"qwen-plus-2025-07-28","temperature":0.7}, 请求类: ChatController, 请求方法: chat =================================== 
+2026-04-24 16:55:25.992 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [流式对话], 耗时: 24ms, 出参: {"scanAvailable":true,"prefetch":-1} =================================== 
+2026-04-24 16:55:26.008 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.advisor.CustomChatMemoryAdvisor - ## 自定义聊天记忆 Advisor...
+2026-04-24 16:55:26.777 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+2026-04-24 16:55:26.779 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 关于
+2026-04-24 16:55:26.780 [boundedElastic-1] WARN  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - !!!
+Performing asynchronous handling through the default Spring MVC SimpleAsyncTaskExecutor.
+This executor is not suitable for production use under load.
+Please, configure an AsyncTaskExecutor through the WebMvc config.
+-------------------------------
+!!!
+2026-04-24 16:55:26.786 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: “星球”
+2026-04-24 16:55:26.809 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 具体
+2026-04-24 16:55:26.907 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 指代的内容
+2026-04-24 16:55:26.941 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ，目前尚不
+2026-04-24 16:55:27.019 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 明确。您提到的“
+2026-04-24 16:55:27.071 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 星球”可能涉及
+2026-04-24 16:55:27.146 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 多个领域，例如：
+
+1
+2026-04-24 16:55:27.191 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: . **科幻项目
+2026-04-24 16:55:27.254 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 或太空探索计划
+2026-04-24 16:55:27.368 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **（如火星
+2026-04-24 16:55:27.414 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 移民、卫星部署
+2026-04-24 16:55:27.535 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 等）  
+2. **
+2026-04-24 16:55:27.571 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 某家公司或组织
+2026-04-24 16:55:27.638 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 的内部项目**
+2026-04-24 16:55:27.716 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （如“星球”
+2026-04-24 16:55:27.797 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 为品牌名、
+2026-04-24 16:55:27.878 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 平台名或代
+2026-04-24 16:55:27.924 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 号）  
+3. **
+2026-04-24 16:55:28.004 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 虚构作品中的设定**
+2026-04-24 16:55:28.079 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （如小说、影视
+2026-04-24 16:55:28.198 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 中的“星球”相关
+2026-04-24 16:55:28.302 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 情节）  
+
+由于
+2026-04-24 16:55:28.385 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 缺乏具体背景信息，我
+2026-04-24 16:55:28.435 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 无法准确回答“有几个
+2026-04-24 16:55:28.534 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 项目”。如果您能提供更多上下
+2026-04-24 16:55:28.562 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 文（例如：公司
+2026-04-24 16:55:28.639 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 名称、项目类型
+2026-04-24 16:55:28.724 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 、所属领域等），
+2026-04-24 16:55:28.819 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 我将更乐意
+2026-04-24 16:55:28.868 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 为您详细解答！
+2026-04-24 16:55:28.871 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+2026-04-24 16:55:28.872 [boundedElastic-1] INFO  com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - 
+==== FULL AI RESPONSE ====
+关于“星球”具体指代的内容，目前尚不明确。您提到的“星球”可能涉及多个领域，例如：
+
+1. **科幻项目或太空探索计划**（如火星移民、卫星部署等）  
+2. **某家公司或组织的内部项目**（如“星球”为品牌名、平台名或代号）  
+3. **虚构作品中的设定**（如小说、影视中的“星球”相关情节）  
+
+由于缺乏具体背景信息，我无法准确回答“有几个项目”。如果您能提供更多上下文（例如：公司名称、项目类型、所属领域等），我将更乐意为您详细解答！
+========================
+2026-04-24 16:55:29.015 [boundedElastic-1] ERROR com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - 
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: null value in column "chat_uuid" of relation "t_chat_message" violates not-null constraint
+  详细：Failing row contains (67, null, 目前星球有几个项目, user, 2026-04-24 16:55:28.878581).
+### The error may exist in com/hxy/ai/robot/domain/mapper/ChatMessageMapper.java (best guess)
+### The error may involve com.hxy.ai.robot.domain.mapper.ChatMessageMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_chat_message  ( content, role, create_time )  VALUES (  ?, ?, ?  )
+### Cause: org.postgresql.util.PSQLException: ERROR: null value in column "chat_uuid" of relation "t_chat_message" violates not-null constraint
+  详细：Failing row contains (67, null, 目前星球有几个项目, user, 2026-04-24 16:55:28.878581).
+; ERROR: null value in column "chat_uuid" of relation "t_chat_message" violates not-null constraint
+  详细：Failing row contains (67, null, 目前星球有几个项目, user, 2026-04-24 16:55:28.878581).
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:258) ~[spring-jdbc-6.2.6.jar:6.2.6]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107) ~[spring-jdbc-6.2.6.jar:6.2.6]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at jdk.proxy2/jdk.proxy2.$Proxy96.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59) ~[mybatis-plus-core-3.5.12.jar:3.5.12]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:156) ~[mybatis-plus-core-3.5.12.jar:3.5.12]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:93) ~[mybatis-plus-core-3.5.12.jar:3.5.12]
+	at jdk.proxy2/jdk.proxy2.$Proxy104.insert(Unknown Source) ~[?:?]
+	at com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor.lambda$adviseStream$1(CustomStreamLoggerAndMessage2DBAdvisor.java:84) ~[classes/:?]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.2.6.jar:6.2.6]
+	at com.hxy.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor.lambda$adviseStream$2(CustomStreamLoggerAndMessage2DBAdvisor.java:81) ~[classes/:?]
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:931) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:940) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onComplete(FluxDoFinally.java:128) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber.onComplete(FluxPeekFuseable.java:595) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.doComplete(FluxPublishOn.java:1106) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.checkTerminated(FluxPublishOn.java:1140) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.runAsync(FluxPublishOn.java:996) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.run(FluxPublishOn.java:1079) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37) ~[reactor-core-3.7.5.jar:3.7.5]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "chat_uuid" of relation "t_chat_message" violates not-null constraint
+  详细：Failing row contains (67, null, 目前星球有几个项目, user, 2026-04-24 16:55:28.878581).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194) ~[postgresql-42.7.5.jar:42.7.5]
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180) ~[postgresql-42.7.5.jar:42.7.5]
+	at com.p6spy.engine.wrapper.PreparedStatementWrapper.execute(PreparedStatementWrapper.java:362) ~[p6spy-3.9.1.jar:?]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61) ~[mybatis-3.5.19.jar:3.5.19]
+	at jdk.proxy2/jdk.proxy2.$Proxy118.update(Unknown Source) ~[?:?]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:61) ~[mybatis-3.5.19.jar:3.5.19]
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106) ~[mybatis-plus-extension-3.5.12.jar:3.5.12]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59) ~[mybatis-3.5.19.jar:3.5.19]
+	at jdk.proxy2/jdk.proxy2.$Proxy117.update(Unknown Source) ~[?:?]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	... 25 more
+2026-04-24 17:04:23.968 [http-nio-8081-exec-6] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 17:04:36.838 [http-nio-8081-exec-5] ERROR com.hxy.ai.robot.exception.GlobalExceptionHandler - /customer-service/completion request error, 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource customer-service/completion.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-24 17:04:36.839 [http-nio-8081-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.hxy.ai.robot.exception.GlobalExceptionHandler#handleOtherException(HttpServletRequest, Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:291) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:471) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:73) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:182) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1359) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1161) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-04-24 17:05:38.105 [http-nio-8081-exec-4] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 17:05:39.880 [http-nio-8081-exec-2] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 17:05:47.547 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [AI 智能客服对话], 入参: {"message":"目前星球有几个项目","chatId":null}, 请求类: AiCustomerServiceController, 请求方法: chat =================================== 
+2026-04-24 17:05:47.556 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [AI 智能客服对话], 耗时: 9ms, 出参: {"scanAvailable":true,"prefetch":-1} =================================== 
+2026-04-24 17:05:47.997 [http-nio-8081-exec-7] INFO  com.hxy.ai.robot.advisor.CustomerServiceAdvisor - ## 重新构建的增强提示词：你是一个专业的客服，名为 "New AI 助手"。请根据上下文信息回答用户问题。
+
+## 上下文信息
+**问题1：星球目前有几个项目？**目前星球已更新了 3 个项目，分别是：- 《从零手撸: 前后端分离博客, Wiki 知识库》：  - **介绍**：全栈开发，从 0 到 1 手敲一个前后端分离博客，包括前台以及后台管理，渐进式讲解每个功能模块的开发，直到部署到云服务器，实现公网域名可访问。  - **试读链接**：https://www.quanxiaoha.com/column/10000.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构、Maven 多模块功能拆分; Element Plus、Flowbit 前端界面。  - **项目技术栈**：Spring Boot 2.x、JDK 1.8、MySQL 5.7、MyBatis Plus、Spring Security、JWT、Minio、Lucene、Maven、Nginx、Docker、Jenkins、CI/CD、Vue 3.x、Vite 4、Element Plus、Tailwindcss、Pinia、Axios、Echarts、Flowbit ...- 《从零手撸：小哈书（仿小红书）》：  - **介绍**：从 0 到 1 搭建一个小红书，基于 Spring Cloud Alibaba 微服务架构。  - **试读链接**：https://www.quanxiaoha.com/column/10247.html。  - **项目架构**：后端微服务、分布式架构，Maven 多模块，业务组件设计; 前后端分离; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring Boot 3.x、JDK 17、MySQL 8.0、Redis 7.x、Elasticsearch 7.x、Spring Cloud Alibaba 2022.x、Nacos、Gateway、Sentinel、RocketMQ、XXL-Job、MyBatis、SaToken、Minio、Cassandra、Zookeeper、Docker、Jmeter、Maven、Vue 3.x、Vite 4 ...- 《从零手撸: Spring AI 应用项目（问答机器人、RAG 私有知识库、联网搜索）》：  - **介绍**：全栈开发，基于 Spring AI 框架，从 0 到 1 手敲一个 AI 应用，初期规划是完成问答机器人、RAG 私有知识库、联网搜索（后续还会追加其他功能），包括前台以及后台管理，渐进式讲解每个功能模块的开发。  - **试读链接**：https://www.quanxiaoha.com/column/10508.html。  - **项目架构**：前后端分离; 后端单体 MVC 架构; Tailwindcss + Vue3 前端界面。  - **项目技术栈**：Spring AI、Spring Boot 3.x、JDK 21、MySQL 8.x、Deepseek、Function Call、RAG 增强检索、MCP、Ollama、MyBatis Plus、PostgreSQL、Redis Stack、Cassandra、SaToken、JWT、Minio、Jsoup、Maven、Docker、Vue 3.x、Vite 4、Ant Design Vue、Tailwindcss、Pinia、Axios ...---**问题2: 项目是视频讲解吗？**是图文专栏的模式哈，就第一个项目 《从零手撸: 前后端分离博客, Wiki 知识库》 的第八章是视频，后续小伙伴反馈说，视频看起来太磨叽，得来回横跳，又切回图文模式了。基本每一步关键步骤都有图示，可以 PC 端先试读瞅瞅：https://www.quanxiaoha.com/column。---**问题3：如何加入星球呢？**微信扫描下面的优惠券就能加入，还能节省 15元，非常划算。15元新人优惠券图片链接：https://img.quanxiaoha.com/quanxiaoha/176222933164217
+----
+
+要测试安全配置，可使用以下 curl 命令模拟登录请求：
+----
+
+注意：实际部署时应使用加密密码存储，示例中为简化展示使用明文
+----
+
+
+
+请根据上下文内容来回复用户:
+
+## 用户问题
+目前星球有几个项目
+
+## 回答要求
+
+**核心规则**:
+1. **严格基于上下文**: 只能使用提供的上下文信息回答问题
+2. **服务风格**: 热情、耐心、专业，可以使用适当的 Emoji 表情 😊
+3. **禁止用语**: 避免使用"根据上下文"、"所提供的信息"等生硬表述
+
+**回答范围判断**:
+- ✅ 如果用户问题与上下文信息直接相关，请提供详细、准确的回答
+- ✅ 如果用户问题与上下文信息间接相关，可以基于已有信息进行合理推断
+- ❌ 如果用户问题完全超出上下文范围，或者上下文信息不足以回答该问题
+
+**无法回答时的统一回复**：
+当遇到以下情况时，请统一回复：
+"此问题暂时无法回答，可以加博主「小哈」的私人微信来咨询，记得添加时一定要备注 **星球咨询**"
+微信二维码：![](https://img.quanxiaoha.com/quanxiaoha/173950927165691)
+
+**图片展示**：
+如需要展示图片，请使用 Markdown 格式：![](图片链接)
+
+现在请根据以上要求回答问题。
+
+2026-04-24 17:07:28.234 [http-nio-8081-exec-6] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 17:16:19.320 [http-nio-8081-exec-1] WARN  com.hxy.ai.robot.exception.GlobalExceptionHandler - /chat/message/list request error, errorCode: 10001, errorMessage: chatId 对话 ID 不能为空, 当前值: 'null'; 
+2026-04-24 17:43:20.746 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 17:43:20.775 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 17:43:20.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2026-04-24 17:43:20.798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
