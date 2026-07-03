@@ -19,7 +19,7 @@ spring:
       max-file-size: 10MB # 单个文件大小限制
       max-request-size: 10MB #总请求大小限制
   #      base-url: https://api.zhizengzeng.com/v1
-#      api-key: sk-zk2c9dff6647fabd89f38422f43178ef36f69dccd1266415
+#      api-key: #{system_env.AI_OPENAI_API_KEY}
 #      chat:
 #        options:
 #          model: gpt-4o
