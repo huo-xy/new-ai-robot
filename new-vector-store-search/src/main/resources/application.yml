@@ -1,0 +1,40 @@
+server:
+  port: 8090
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key: sk-54c521991e904b10ad2948670411cfb5
+      embedding:
+        options:
+          model: text-embedding-v4
+      chat:
+        options:
+          model: qwen-turbo
+    vectorstore:
+      redis:
+        initialize-schema: true
+        index-name: new-ai-index
+        prefix: embedding
+    deepseek:
+      base-url: https://api.deepseek.com
+      api-key: sk-b533043b9dbb493a9b62458e3acecc28
+      chat:
+        options:
+          model: deepseek-reasoner
+          temperature: 0.0
+okhttp:
+  connect-timeout: 5000
+  read-timeout: 30000
+  write-timeout: 15000
+  max-idle-connection: 200
+  keep-alive-duration: 5
+
+searxng:
+  url: http://localhost:8888/search
+  count: 50

@@ -1,0 +1,14 @@
+server:
+  port: 8000
+
+spring:
+  ai:
+    mcp:
+      server:
+        type: sync
+        name: mcp-server-qq
+        version: 1.0.0
+
+
+api-key: 142c5bfda8e7cdb83a8c86d500b728a2
+
