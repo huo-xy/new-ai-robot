@@ -10,7 +10,7 @@ spring:
           model: qwen-omni-turbo
           temperature: 0.7
 #      base-url: https://api.zhizengzeng.com/v1
-#      api-key: sk-zk2c9dff6647fabd89f38422f43178ef36f69dccd1266415
+#      api-key: #{openai.api-key}
 #      chat:
 #        options:
 #          model: gpt-4o
